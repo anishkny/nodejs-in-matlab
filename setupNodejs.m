@@ -23,6 +23,7 @@ function setupNodejs
   else
     downloadForPOSIX();
   end
+  !which node
   !node -v
   disp('Node.js added to system path.');
 end
