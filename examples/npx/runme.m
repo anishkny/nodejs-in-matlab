@@ -1,0 +1,1 @@
+!npx happy-birthday -u you
