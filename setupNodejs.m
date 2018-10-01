@@ -47,7 +47,7 @@ function bindir = downloadForPOSIX()
   elseif isunix()
     nodeFlavor = 'node-v8.12.0-linux-x64';
   else
-    disp('Currently, only supported for Mac/Linux');
+    disp('Unknown POSIX OS.');
     return;
   end
   downloadURL = ['https://nodejs.org/dist/v8.12.0/' nodeFlavor '.tar.xz'];
