@@ -61,7 +61,7 @@ function bindir = downloadForPOSIX()
   bindir = fullfile(workingdir, nodeFlavor, 'bin');
   nodebin = fullfile(bindir, 'node');
   if ~exist(nodebin, 'file')
-    system(['curl -s "' downloadURL '" | tar xz']);
+    system(['curl -s "' downloadURL '" | tar xJ']);
   end
   setenv('PATH', [ getenv('PATH') ':' bindir ]);
 end
