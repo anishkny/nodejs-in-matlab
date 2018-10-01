@@ -10,6 +10,10 @@ Once setup, you can use MATLAB's [system](https://www.mathworks.com/help/matlab/
 
 ## Usage
 
+Clone or download this repo and cd into it.
+
+In MATLAB, execute:
+
 ```
 >> setupNodejs
 v8.12.0
